@@ -1,0 +1,29 @@
+{
+  "name": "mern-basics",
+  "version": "1.0.0",
+  "description": "Mern basics through a Goal setter app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node Server/server.js",
+    "server": "nodemon Server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amenhasfaw/MERN-Basics.git"
+  },
+  "author": "Amen H Asfaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amenhasfaw/MERN-Basics/issues"
+  },
+  "homepage": "https://github.com/amenhasfaw/MERN-Basics#readme",
+  "dependencies": {
+    "color": "^4.2.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
